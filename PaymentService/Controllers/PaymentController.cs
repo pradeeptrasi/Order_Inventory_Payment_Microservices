@@ -8,6 +8,6 @@ public class PaymentController : ControllerBase
     public IActionResult ProcessPayment([FromBody] string orderId)
     {
         // Simple logic to simulate payment processing
-        return Ok(new { message = $"Payment for Order {orderId} processed successfully" });
+        return Ok(new { message = $"Payment for Order {orderId} processed successfully. Thank You" });
     }
 }
